@@ -5540,6 +5540,7 @@ section {
 }
 .page-wrapper-two .about-thumb img {
   width: 100%;
+  border-radius: 2%;
 }
 .page-wrapper-two .about-thumb .about-video-wrapper {
   position: absolute;
@@ -8205,6 +8206,7 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
 
 .faq-thumb img {
   width: 100%;
+  border-radius: 2%;
 }
 
 .faq-wrapper {
