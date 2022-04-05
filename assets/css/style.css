@@ -4122,11 +4122,24 @@ section {
   color: #19232d;
   margin-bottom: 30px;
 }
+.title_2 {
+  font-weight: 700;
+  color: #19232d;
+  margin-bottom: 25px;
+  font-size: 40px;
+}
+.banner-content .title_1 {
+  font-weight: 700;
+  color: #19232d;
+  margin-bottom: 25px;
+  font-size: 45px;
+}
 @media only screen and (max-width: 991px) {
   .page-wrapper-two .banner-section .banner-content .title {
     line-height: 50px;
   }
 }
+
 @media only screen and (max-width: 575px) {
   .page-wrapper-two .banner-section .banner-content .title {
     line-height: 40px;
@@ -4135,12 +4148,15 @@ section {
 .page-wrapper-two .banner-section .banner-content .access {
   font-weight: 800;
   color: #19232d;
-  font-size: 22px;
+  font-size: 45px;
   margin-bottom: 20px;
+  line-height: 50px;
+  font-family: "Playfair Display", sans-serif;
 }
 @media only screen and (max-width: 1199px) {
   .page-wrapper-two .banner-section .banner-content .access {
-    font-size: 16px;
+    font-size: 35px;
+    font-family: "Playfair Display", sans-serif;
   }
 }
 .page-wrapper-two .banner-section .banner-content .access span {
@@ -4910,11 +4926,15 @@ section {
   align-items: flex-end;
   margin-top: 20px;
 }
+.odometer-inside{
+  font-size: 35px;
+}
 
 .client-footer-left .title {
-  font-weight: 800;
+  font-weight: 700;
   font-family: "Mulish", sans-serif;
   font-size: 20px;
+  color: #000;
 }
 @media only screen and (max-width: 991px) {
   .client-footer-left .title {
