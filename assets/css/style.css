@@ -1109,7 +1109,12 @@ blockquote .quote-icon {
     margin-right: 5px;
   }
 }
-
+.sub-page{
+  font-weight: 700;
+  color: #dcbb87;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
 /*-------------------------------------------------
     [ ## card ]
 */
@@ -3968,11 +3973,13 @@ section {
 @media only screen and (max-width: 767px) {
   .page-wrapper-two .banner-section .banner-thumb-two img {
     width: 50%;
+    display: none;
   }
 }
 @media only screen and (max-width: 575px) {
   .page-wrapper-two .banner-section .banner-thumb-two img {
     width: 40%;
+    display: none;
   }
 }
 .page-wrapper-two .banner-section .banner-widget-one {
@@ -5641,7 +5648,7 @@ section {
   display: inline-block;
   color: #19232d;
   font-weight: 800;
-  font-size: 16px;
+  font-size: 14px;
 }
 @media only screen and (max-width: 1199px) {
   .page-wrapper-two .about-list li {
